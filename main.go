@@ -5,4 +5,15 @@ import "fmt"
 
 func main(){
 	fmt.Println("hello Gopher!!!")
+
+	fmt.Printf("hello %s!!!!!\n","Gopher")
+	fmt.Printfln("next line")
+
+	fmt.Printf("hello %s!!!!!\n","Gopher")
+
+	fmt.Printf("hello %s!!!!!\n","Gopher")
+	fmt.Printf("hello %s!!!!!\n","Gopher")
+
+	fmt.Printf("hello %s!!!!!\n","Gopher")
+
 }
