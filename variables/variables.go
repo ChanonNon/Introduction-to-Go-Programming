@@ -1,5 +1,17 @@
 package main
 
+import "fmt"
+
+//
+var name string = "Gopher นำแน่!!!"
+
 func main() {
-	println("")
+	fmt.Printf("name: %v\n", name)
+	fmt.Printf("type: %T\n", name)
+}
+
+func fucnum() {
+	// จะ Error เมื่อตัวแปร
+	fmt.Printf("name: %v\n", name)
+
 }
